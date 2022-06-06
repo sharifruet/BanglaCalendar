@@ -2,8 +2,9 @@
 
 ## Usage   
 ```
-let myDate = new Date();   
-addBanglaCalendar(myDate);   
+npm i bandhanhara-bangla-calendar
+
+let myDate = banglaCalendar(new Date());      
 let banglaMonth = myDate.banglaMonth; // জ্যৈষ্ঠ   
 let banglaYear = myDate.banglaYear;   // ১৪২৯    
 let banglaDate = myDate.banglaDate;   // ২৩   
