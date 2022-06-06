@@ -63,5 +63,8 @@ const addBanglaCalendar = (date)=>{
 	date.banglaMonth = months[bMonth];
 	date.banglaDate = engToBanglaNumber(bDay);
 	date.banglaYear = engToBanglaNumber(bYear);
-	//return {month:bMonth, year:bYear, date: bDay};
+	return date;
 };
+
+
+exports.banglaCalendar = addBanglaCalendar;
