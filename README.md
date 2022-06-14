@@ -1,10 +1,20 @@
 # BanglaCalendar
 
-## Usage   
+## Usage
+
+### Install
 ```
 npm i bandhanhara-bangla-calendar
+```
 
-let myDate = banglaCalendar(new Date());      
+### Import 
+```
+import banglaCalendar from 'bandhanhara-bangla-calendar';
+```
+
+### Use
+```
+const myDate = banglaCalendar(new Date());      
 let banglaMonth = myDate.banglaMonth; // জ্যৈষ্ঠ   
 let banglaYear = myDate.banglaYear;   // ১৪২৯    
 let banglaDate = myDate.banglaDate;   // ২৩   
